@@ -1,45 +1,32 @@
 h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 30px;
+    line-height: 1.2;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    line-height: 1.2;
+}
+#title{
+    color: rgb(73, 73, 73);
+    font-size: 64px;
+
+}
+.intro-title{
+    color: rgb(113, 63, 250);
+    font-size: 70px;
 }
 p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(97, 96, 96);
     text-align: justify;
 }
 .name-highlight{
-    color: rgb(255, 82, 82);
+    color: rgb(113, 63, 250);
     font-weight: 700;
 }
-
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg, #ff5252, rgb(211, 184, 31));
-    padding: 10px 20px;
-    font-size: 15px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-
-.btn{
-  background-image: linear-gradient(180deg, #ff5252, rgb(211, 184, 31));
-  border: none;
-  color: white;
-  padding: 10px;
-  font-size: 15px;
-  cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  border-radius: 5px;
-  text-align: center;
-}
-.btn:hover {
-    background-color: rgb(255, 82, 82);
-    border: none;
-  }
-  
 .half-width{
     width: 40%;
     float: left;
@@ -51,10 +38,116 @@ p{
     width: 100%;
 }
 
-.project h2{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ff5252, rgb(113, 63, 250));
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
 }
 
+.btn{
+  background-image: linear-gradient(180deg, #ff5252, rgb(113, 63, 250));
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 5px;
+  text-align: center;
+  width: 160px;
+}
+
+.top{
+    height: 500px;
+    margin: 5%;
+}
+.top-two{
+    height: 550px;
+    margin: 5%;
+}
+.project{
+    height: 600px;
+    margin: 5%;
+}
+
+
+.project h2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.tri{
+    margin: 2% 3%;
+    padding: 1%;
+    width: 25%;
+    float: left;
+}
+
+.tri p{
+    font-size: 15px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.tri h3{
+    color: rgb(49, 48, 48);
+    font-family: 'Bebas Neue', cursive;
+    padding: 2%;
+    display: block;
+    font-size: 22px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.tri img{
+    width: 100%;
+}
+
+.box{
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 10px;
+    height: auto;
+    background-color: white;
+    box-sizing: content-box;
+
+}
+.blog-title{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: rgb(90, 89, 89);
+}
+
+.blog-date{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 2%;
+    color: gray;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.blog-btn{
+    background-image: linear-gradient(180deg, #8490fa, rgb(113, 63, 250));
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    float: right;
+}
