@@ -40,7 +40,7 @@ p{
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, #ff5252, rgb(113, 63, 250));
+    background-image: linear-gradient(180deg, #606ff4, #e063ff);
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 5px;
@@ -49,8 +49,8 @@ p{
     font-family: 'Bebas Neue', cursive;
 }
 
-.btn{
-  background-image: linear-gradient(180deg, #ff5252, rgb(113, 63, 250));
+.btn-about{
+  background-image: linear-gradient(180deg, #606ff4, #e063ff);
   border: none;
   color: white;
   padding: 10px;
@@ -71,7 +71,7 @@ p{
     margin: 5%;
 }
 .project{
-    height: 600px;
+    height: 700px;
     margin: 5%;
 }
 
@@ -139,7 +139,7 @@ p{
     letter-spacing: 1px;
 }
 .blog-btn{
-    background-image: linear-gradient(180deg, #8490fa, rgb(113, 63, 250));
+    background-image: linear-gradient(180deg, #606ff4, #e063ff);
     border: none;
     color: white;
     padding: 5px;
@@ -150,4 +150,64 @@ p{
     text-align: center;
     width: 100px;
     float: right;
+}
+.mid-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 500px;
+}
+.inquiry-box{
+    width: 70%;
+    margin: auto;
+    padding: 80px 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-image: url("shapes/inquiry.png");
+    background-repeat: no-repeat;
+}
+
+.col-half {
+    width: 50%;
+    float: left;
+}
+.inquiry-box h2 {
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+}
+.inquiry-btn {
+    text-align: right;
+    margin-top: 27px;
+}
+.btn {
+    background-image: linear-gradient(180deg, #606ff4, #e063ff);
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer {
+    text-align: center;
+    padding: 100px 0;
+}
+footer {
+    display: block;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
