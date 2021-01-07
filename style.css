@@ -167,6 +167,8 @@ p{
     overflow: hidden;
     background-image: url("shapes/inquiry.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .col-half {
