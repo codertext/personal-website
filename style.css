@@ -196,18 +196,56 @@ p{
     font-family: 'Bebas Neue', cursive;
 }
 
-.footer {
+.socialmedia{
     text-align: center;
-    padding: 100px 0;
+    width: 60%;
+    margin: auto;
 }
-footer {
-    display: block;
+
+.sm1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #696871;
+    font-weight: 300;
+    margin: 0px;
 }
-h4 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+.sm2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #363958;
+    font-weight: 900;
+    margin: 0px;
+}
+
+#social-link{
+    height: 250px;
+    
+}
+
+
+.mainsmicon{
+    height: 50px;
+    margin: 0px;
+    padding: 25px 30px;
+}
+
+.mainsmicon a{
+    padding: 0px 10px 0px 10px;
+    
+}
+
+.socialmedia img{
+    width: 40px;
+    margin-top: -10px;
+}
+.mainsmicon .dribble img{
+    width: 43px;
+    padding-top: 5px;
+}
+
+#foot{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
